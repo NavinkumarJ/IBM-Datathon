@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online HealthCare</title>
+    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/8a3d976fe3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color: lightseagreen">
+
+<!--Navbar Section-->
+
+    <nav id="navbar">
+      <span id="logo">
+        <img src="images/logo.svg" alt="" />
+      </span>
+      <ul>
+        <li class="item"><a href="#home">HOME <i class="fa fa-home"></i></a></li>
+        <li class="item"><a href="#about">ABOUT <i class="fa fa-group"></i></a></li>
+        <li class="item"><a href="#home">SERVICES <i class="fa fa-medkit"></i></a></li>
+        <!-- <li class="item"><a href="#donate-us">DONATE <i class="fa fa-heart"></i></a></li> -->
+        <li class="item"><a href="#gallery">GALLERY <i class="fa fa-camera"></i></a></li>
+        <li class="item"><a href="#contact-us">CONTACT US <i class="fa fa-phone"></i></a></li>
+      </ul>
+    </nav>
+
+<!--Home Section-->
+
+    <section id="home">
+      <h1 class="h-primary">Revolutionizing Early Oral Cancer Detection <i class="fa fa-heartbeat"></i></h1>
+      <p>Your health and healing is our top most priority!</p>
+      <form class="searchbar" action="#">
+            </form>
+      <button
+        type="button"
+        class="btn"
+        onclick="bookAppointment()"
+        style="
+          color: white;
+          font-weight: bolder;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+            sans-serif;
+          font-size: 25px;
+          background-color: darkcyan;
+          border-color: black;
+          border-radius: 15px;
+        "
+      >
+        DETECT CANCER 
+      </button>     
+    </section>
+
+<!--About Section-->
+
+    <section id="about">
+      <h1 class="h-primary center">MISSION</h1>
+      <div class="about1">
+
+        <!-- <h1 class="about-head">MISSION</h1> -->
+        <p class="about-para">
+          Empowering lab technicians with cutting-edge AI to detect oral cancer early, transforming precision diagnostics and patient care
+        </p>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">AI-Driven Diagnosis</h5>
+                <p class="card-text">
+                  Leverage the power of machine learning for early oral cancer detection.That is we can able to detect even in the premliminary stage
+                </p>
+                <button href="#" class="button">
+                  <span>Click here to read more</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">High Accuracy</h5>
+                <p class="card-text">
+                  Achieve 95% accuracy with state-of-the-art deep learning models like EfficientNetB3 and Customized layers.
+                </p>
+                <button href="#" class="button">
+                  <span>Click here to read more</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Real-Time Reporting</h5>
+                <p class="card-text">
+                  Generate detailed reports instantly for sharing with oncologists and patients with real time visualization
+                </p>
+                <button href="#" class="button">
+                  <span>Click here to read more</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">VALUES</h5>
+                <p class="card-text">
+                  We believe that everyone deserves access to quality healthcare
+                  and are committed to providing inclusive and equitable care
+                  for all.
+                </p>
+                <button href="#" class="button">
+                  <span>Click here to read more</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Services Section-->
+<!----------------------------------->
+      <!--Bootstrap script-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"
+      ></script>
+    </section>
+
+
+    <section id="gallery">
+      <h1 class="h-primary center">GALLERY</h1>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/image1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image2.avif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image3.webp" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!--Contact-us Section-->
+
+    <section id="contact-us">
+      <h1 class="h-primary center">CONTACT US</h1>
+      <div id="contact-box">
+        <form class="contactbutton" action="">
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Please enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Please enter your email address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number: </label>
+            <input
+              type="text" max="10"
+              name="phone"
+              id="phone"
+              placeholder="Please enter your phone number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Send us a message: </label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Type here..."
+            ></textarea>
+          </div>
+          <button type="button" onclick="submitButton()" class="submit">Submit</button>
+        </form>  
+      </div>
+    </section>
+
+<!--Footer Section-->
+
+  </section>
+    <footer>
+      <!--Social media icon section-->
+        <div class="footer-social">
+      <a href="https://github.com/selcia25" class="generic-anchor" target="_blank" title="Github" itemprop="significantLink"><i class="fa fa-github"></i></a>
+      <a href="https://www.facebook.com/" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+      <a href="#contact-us" class="generic-anchor" target="_blank" title="Website" itemprop="significantLink"><i class="fa fa-google"></i></a>
+      🙋‍♀️Let's Talk!>>
+      <a href="selcia2110605@gmail.com" class="generic-anchor" target="_blank" title="Gmail" itemprop="significantLink"><i class="fa fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/selcia-s-405206243/" class="generic-anchor" target="_blank" title="LinkedIn" itemprop="significantLink"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+        </div>
+      <!--Copyright section-->
+      <!-- <div class="center footer">
+        &copy; 2023 Copyright: <a href="https://github.com/selcia25">github/selcia25</a> All rights reserved! 
+      </div> -->
+    </footer>
+  </body>
+  <script>
+    function bookAppointment() {
+  var myText = "Redirecting to the page. Please wait";
+  alert(myText);
+  window.location.href = "https://595a-35-201-165-45.ngrok-free.app/"
+  window.location.replace("https://595a-35-201-165-45.ngrok-free.app/")
+}
+
+function donateUs() {
+  let charity = prompt("How much would you like to donate?");
+  if (charity.length > 0) {
+    alert("Thank you for supporting us!🥰");
+  } else {
+    alert(
+      "Your generosity ensures that our doors has access to the best treatment and care possible.!🙏"
+    );
+  }
+}
+
+function donate55() {
+  alert(" Thank you for celebrating a birth - God bless!🙏❤");
+}
+
+function donate100() {
+  alert(
+    "Thanks for your great help! Your donations help us to deliver programs and medical equipment, and drive innovation and research across all areas of the hospital.❤🙏"
+  );
+}
+
+function donate250() {
+  alert(
+    "Thank you for supporting women and families during their stay – every donation makes an impact.❤🙏"
+  );
+}
+
+function submitButton() {
+  alert("We'll get back to you soon, take care until then!❤");
+}
+    
+  </script>
+</html>
